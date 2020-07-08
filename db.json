@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "avengers",
+      "email": "hulk@gmail.com",
+      "phone": "123-678",
+      "id": 3
+    },
+    {
+      "name": "mine ",
+      "email": "erelmine43@gmail.com",
+      "phone": "05373343980",
+      "id": 6
+    },
+    {
+      "name": "mine erel",
+      "email": "erelmine43@gmail.com",
+      "phone": "05373343980",
+      "id": 7
+    }
+  ]
+}
