@@ -7,7 +7,7 @@ import { Employees } from './employees.model';
   providedIn: 'root'
 })
 export class RestApiService {
-  apiUrl= 'http://localhost:3333';
+  apiUrl= 'http://localhost:3003';
 
   httpOptions = {
     headers: new HttpHeaders({
@@ -15,7 +15,7 @@ export class RestApiService {
     })
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(public http: HttpClient) { }
 
   getEmployees(): Observable<Employees> {
     return this.http.get<Employees>(this.apiUrl + '/employees');

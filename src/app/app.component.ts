@@ -7,7 +7,7 @@ import { from } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngapi';
+  title = 'angular';
 
   constructor(private http:HttpClient){
 
